@@ -1,3 +1,5 @@
 # This file is used to ignore files within a directory that should not be included in the build of an image
 
 *.md
+.travis.yml
+.travis/

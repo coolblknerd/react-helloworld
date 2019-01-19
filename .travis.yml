@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "node"
+
+sudo: required
+services:
+  - docker
+
+after_success:
+  -sh .travis/deploy_dockerhub.sh
