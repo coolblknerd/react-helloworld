@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render correctly 1`] = `
+<div
+  className="button__container"
+>
+  <button
+    className="button"
+    onClick={[Function]}
+  >
+    Click Me
+  </button>
+  <p />
+</div>
+`;
